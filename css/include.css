@@ -1,0 +1,141 @@
+@charset "utf-8";
+
+/*헤더*/
+#header{
+    margin:20px 50px;
+    height:43px;
+    line-height:43px;
+    text-align:center;
+    position:relative;
+}
+
+#header h1{
+    width:110px;
+    height:43px;
+    background:url(../images/sp_com.png) no-repeat -300px -5px;
+    text-indent:-9999px;
+    position:absolute;
+}
+#header h1 a{
+    display:block;
+}
+
+.gnb{
+    display:inline-block;
+}
+.gnb li{
+    float:left;
+    margin:0 20px;
+}
+.gnb li:hover a{
+    border-bottom:3px solid #2d5b79;
+    color:#2d5b79;
+}
+.gnb li a{display:block;}
+
+.util{
+    position:absolute;
+    top:0;
+    right:0;
+    font-size:12px;
+}
+.util li{
+    float:left;
+}
+.util li::after{
+    content:"";
+    display:inline-block;
+    width:1px;
+    height:8px;
+    background:#999;
+    margin:0 5px;
+}
+.util li:last-child::after{display:none;}
+.util li a{}
+
+/*푸터*/
+#footer{
+    color:#fff;
+    font-size:13px;
+}
+
+.fTop{
+    background:#383F43;
+    line-height:40px;
+    padding:10px 0;
+}
+.fMenu{float:left;}
+.fMenu li{
+    float:left;
+}
+.fMenu li::before{
+    content:"";
+    display:inline-block;
+    width:1px;
+    height:10px;
+    background:#fff;
+    margin:0 5px;
+}
+.fMenu li a{color:#fff;}
+
+.lineNone li:first-child::before{
+    display:none;
+}
+
+.csFamily{
+    float:right;
+}
+.csFamily>div{
+    float:left;
+    height:40px;
+    padding:0 15px;
+}
+.csBox{
+    background:#2A3033;
+}
+.csBox span{
+    display:inline-block;
+    vertical-align:top;
+}
+.csBox .num{
+    font-size:22px;
+    margin-top:-1px;
+    margin-left:10px;
+}
+#footer a{color:#fff;}
+.familyBox{
+    width:150px;
+    background:#fff url(../images/arrow.png) no-repeat 95% center;
+    color:#333;
+    margin-left:10px;
+}
+
+.fBottom{
+    background:#4C5459;
+    text-align:center;
+    padding:70px 0;
+}
+.fBottom p{margin:10px 0;}
+
+.fLogo{
+    width:130px;
+    height:50px;
+    margin:0 auto;
+    background:url(../images/sp_com.png) no-repeat -150px 0;
+    text-indent:-9999px;
+    margin-bottom:30px;
+}
+.fInfo{}
+.fInfo span::after{
+    content:"";
+    display:inline-block;
+    width:1px;
+    height:10px;
+    background:#fff;
+    margin:0 5px;
+}
+.fInfo span:last-child::after{display:none;}
+
+
+
+
